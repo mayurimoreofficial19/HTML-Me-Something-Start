@@ -1,5 +1,7 @@
 /* Write your CSS here! */
-<style > body {
+<style > 
+
+body {
   margin: 8px;
   display: block;
 }
@@ -14,6 +16,12 @@ padding: 10px;
 
 .funParagraph {
   color: green;
+  padding: 1.25em;
+  font-size: medium;
+}
+
+main h2 {
+  padding: 0.625em 0 0.625em 0.625em;
 }
 
 nav ul {
@@ -26,6 +34,26 @@ nav ul li {
   margin: 1em;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(236, 166, 79);
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.9em 1em;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(241, 151, 41);
+}
+
 figure {
   margin: 0;
   padding: 0;
@@ -33,8 +61,8 @@ figure {
 }
 
 img {
-  width: 100%;
-  max-width: 100%;
+  width: 50%;
+  max-width: 50%;
 }
 
 footer {
