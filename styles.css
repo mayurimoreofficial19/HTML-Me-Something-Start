@@ -73,4 +73,16 @@ footer {
   justify-content: space-between;
 }
 
+.rParagraph {
+  text-align: right;
+}
+
+.cParagraph {
+  text-align: center;
+}
+
+.lParagraph {
+  text-align: left;
+}
+
 </style >
