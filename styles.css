@@ -73,11 +73,4 @@ footer {
   justify-content: space-between;
 }
 
-.redheart::after {
-  content: "";
-  background-color: red;
-  font-size: 100px;
-  color: red;
-}
-
 </style >
